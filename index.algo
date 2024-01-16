@@ -5,19 +5,20 @@ VAR
   totalwords: INTEGER:1
 BEGIN
  Read(sentence)//"what do you love most about me."
-  WHILE (sentence(counting)<> ".") DO
-    set_instruc   counter:= counter+1
-        IF sentence(counting)= " ") THEN
+  WHILE (sentence(counting))<> (".") DO
+       counter:= counter+1
+        IF sentence(counting)= (" ") THEN
             totalWords:= totalWords+1tions 
                END_IF
 
                totalChar:= counter +1
   END_WHILE
 SWITCH (variable) DO
-    case a : set_instructions
-    case e : set_instructions
-    case i : set_instructions
-    case o : set_instructions
-    case u : set_instructions
+    case a :
+    case e : 
+    case i : 
+    case o :
+    case u : totalVowels:= totalVowels+1
 END_SWITCH
+ totalChar:= counter +1
 END
